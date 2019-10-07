@@ -78,7 +78,8 @@
       "X-XSS-Protection": default_security_headers["X-XSS-Protection"],
       "X-Content-Type-Options": default_security_headers["X-Content-Type-Options"],
       "Content-Security-Policy": default_security_headers["Content-Security-Policy"],
-      "Strict-Transport-Security": default_security_headers["Strict-Transport-Security"]
+      "Strict-Transport-Security": default_security_headers["Strict-Transport-Security"],
+      "Camo-Error-Message": msg
     });
     return finish(resp, "Not Found");
   };
